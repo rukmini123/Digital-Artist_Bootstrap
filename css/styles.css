@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Montserrat" sans-serif;
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+.lead {
+    padding-right: 20px;
+}
+
+.col-md .btn {
+    margin-bottom: 20px;
+}
